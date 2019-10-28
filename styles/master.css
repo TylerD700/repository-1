@@ -1,0 +1,163 @@
+html,
+
+p {
+	font-family: "Trebuchet", Times, serif;
+	font-size: 110%;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+	color: background-color: rgb(240, 240, 240);
+}
+
+header {
+	background-color: rgb(240, 240, 240);
+	background-image: url(../images/nuts.png);
+	border: solid rgb(48, 84, 12);
+	border-radius: 15px;
+}
+
+.headtab {
+	background-color: rgb(0, 150, 150);
+	padding-left: 1%;
+	padding-right: 1%;
+	border: 3px solid rgb(48, 84, 12);
+	border-radius: 5px;
+	padding-top: 0.3%;
+	padding-bottom: 0.3%;
+	text-align: center;
+}
+
+.headtab>a {
+	background-color: rgb(155, 183, 27);
+	padding-left: 3%;
+	padding-right: 3%;
+	border: 2px solid rgb(0, 80, 80);
+	border-radius: 5px;
+	font-family: "Verdana", Times, serif;
+	font-size: 130%;
+	color: white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 33px;
+	white-space:nowrap;
+}
+
+h1>a{
+	text-decoration: none;
+}
+
+.headtab>a:hover{
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 400%;
+	color: rgb(82, 216, 102);
+	font-family: "Trebuchet MS", Times, serif;
+	font-weight: bold;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	background-image: url("../images/forest.png");
+	background-color: rgb(160, 200, 140);
+    margin: auto;
+	height:100%;
+	width: 85%;
+	font-size: 100%;
+}
+ 
+main {
+	background-color: rgb(135, 196, 70);
+	border: 4px solid rgb(48, 84, 12);
+	border-radius: 10px;
+	padding-bottom: 3%;
+}
+
+.boxedsec > section {
+	background-color: rgb(255, 244, 200);
+    margin: 1% 0 0 5%;
+	width: 85%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 1em;
+	border: 3px solid rgb(158, 84, 37);
+	border-radius: 15px;
+	font-family: "Georgia", Times, serif;
+}
+
+.boxedsec > section >p{
+	font-family: "Georgia", Times, serif;
+}
+
+.boxedsec > section > img {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.boxedsec>section>a {
+	margin: 1% 10% 0 5%;
+	background-color: rgb(0, 180, 180);
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+	padding-left: 3%;
+	padding-right: 3%;
+	border: 2px solid black;
+	border-radius: 15px;
+	color: rgb(250, 250, 250);
+	font-family: "Verdana", Times, serif;
+	font-size: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	white-space:nowrap;
+}
+
+.boxedsec>section>a:hover {
+	text-decoration: underline;
+}
+
+article {
+	
+}
+
+article>section {
+	display: flex;
+	flex-direction: row;
+}
+
+.formtop {
+	font-family: "Trebuchet MS", Times, serif;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-gap: 6px;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.formbot {
+	font-family: "Trebuchet MS", Times, serif;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 6px;
+}
+
+input[name=firstname] {
+	/*width: 100%;*/
+}
+
+footer {
+   bottom: 0;
+   height: 1em;
+   background: #6cf;
+}
